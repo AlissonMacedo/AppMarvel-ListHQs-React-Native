@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, Text, View, FlatList, TouchableOpacity, Image, ScrollView, ImageBackground, StatusBar, ActivityIndicator } from 'react-native';
+import { StyleSheet, Text, View, FlatList, 
+  TouchableOpacity, Image, ScrollView, ImageBackground, 
+  StatusBar, ActivityIndicator } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import api from '../../services/api';
 
@@ -147,7 +149,7 @@ Details.navigationOptions = ({navigation}) => ({
       onPress={() => {
         navigation.navigate('Home');
       }}>
-      <Icon name="chevron-left" size={40} color="#FFF" style={{ marginTop: 10 }}/>
+      <Icon name="chevron-left" size={40} color="#FFF" style={{ marginTop: 6 }}/>
     </TouchableOpacity>
   ),
 });
